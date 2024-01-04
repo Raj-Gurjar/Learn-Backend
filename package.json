@@ -4,8 +4,15 @@
   "description": "This is Backend Tut",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "_comment": "//! added by me",
+    "dev": "nodemon src/index.js"
   },
   "author": "Raj",
-  "license": "ISC"
+  "license": "ISC",
+
+  "_comment": "//! added by me",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
